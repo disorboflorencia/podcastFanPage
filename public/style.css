@@ -1,0 +1,123 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    background: #787D8A;
+    color: white;
+    background-image: url(images/fondo-podcast-filosos.png);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    *justify-content: space-around;
+    list-style: none;
+}
+
+.redes {
+    float: right;
+}
+
+.redes a {
+    display: flex;
+    justify-content: flex-end;
+    color: #150039;
+    padding-right: 70px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: larger;
+    text-decoration: none;
+}    
+
+.informacion{
+    flex-direction: column;
+    margin: 0px;
+    padding-left: 20px;
+    font-size:x-large;
+}
+
+h1{
+    margin: 0px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+h4{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: initial;
+    font-weight: 400;
+}
+
+section {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #F3F4DA;
+}
+
+section ul{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+main .tema{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items:flex-start;
+}
+
+main div {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.episodio-destacado{
+    padding-top: 20px;
+}
+
+.fa, .fas {
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+section ul li{
+    padding: 30px;
+    list-style: none;
+    width: 300px;
+}
+
+img{
+    max-width: 150px;
+    margin-left: 20px;
+}
+
+.logoPosta{
+    width: 40px;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+footer{
+    text-align: center;
+    font-size: x-small;
+    color: #000;
+}
